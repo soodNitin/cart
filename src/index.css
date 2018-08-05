@@ -1,0 +1,87 @@
+body{
+	margin:0;
+	padding:0;
+	background: #f3f3f3;
+}
+
+.container{
+	margin:auto;
+	max-width:1160px;
+}
+.header{
+	border:1px solid #e7e7e7;
+	background:white;
+}
+
+.flex{
+	flex:1;
+}
+
+.infobar,.locInfo,.orderInfo{
+	display: flex;
+}
+.restaurant_name{
+	width:95%;
+}
+
+.locInfo ul{
+	margin:0;
+	padding-left:20px;
+	height:auto;
+}
+
+.orderInfo div{
+	width:25%;
+	border:1px solid #e7e7e7;
+}
+
+.orderInfo span{
+	display: block;
+	text-align:center;
+}
+
+.orderInfo>div span:last-child{
+	font-weight: bold;
+}
+
+.restaurantBar{
+	display:flex;
+	align-items:center;
+	margin:0;
+
+
+}
+
+.findLocation{
+	flex:2;
+	border:1px solid #e7e7e7;
+	background:white;
+	margin-left:3%;
+	width:auto;
+}
+
+.product{
+	display:flex;
+	border:1px solid #fefefe;
+	background: white;
+	margin-bottom: 2px;
+}
+
+.orderBar{
+	display: flex;
+	align-items:center;
+	margin:0;
+}
+
+.add{
+	background:white;
+	border:1px solid green;
+	color:green;
+
+}
+.add:hover{
+	background:#e6f5ec;
+}
+.productsInCart{
+	display:flex;
+}
