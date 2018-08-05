@@ -3,7 +3,29 @@ body{
 	padding:0;
 	background: #f3f3f3;
 }
-
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 60%;
+}
+.products{
+	display:block;
+	width:60%;
+}
+.nav-bar{
+	border:1px solid #e7e7e7;
+	list-style-type: none;
+	background:white;
+}
+.nav-bar li{
+	display: inline;
+}
+.bogo{
+	border:1px solid #f19a4d;
+	margin-top : 5px; 
+	display:block;
+	background:white;
+}
 .container{
 	margin:auto;
 	max-width:1160px;
